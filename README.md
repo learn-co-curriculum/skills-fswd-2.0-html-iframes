@@ -27,11 +27,14 @@ You can also specify multiple different non-required elements, such as `width`,
 
  
 ## Embed a map element into an existing HTML page
+To embed a map into a webpage, you can use the Google Maps Embed API URL as the `src` attribute for your iframe:
 ```html
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d335994.89219194185!2d2.0673752159642937!3d48.8589713267984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C+France!5e0!3m2!1sen!2sus!4v1457911182825" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 ```
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d335994.89219194185!2d2.0673752159642937!3d48.8589713267984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C+France!5e0!3m2!1sen!2sus!4v1457911182825" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+*Top Tip: To embed a Google Map, you must first [request a free API key](https://developers.google.com/maps/documentation/embed/get-api-key).*
 
 
 ## Conclusion 
